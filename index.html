@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google Tag Manager: код контейнера вставляет автор по заказу «Смоков» (СМ-09) -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="https://testcasedesk.dokufolio.com/">
+<title>Test management for Jira Cloud — cases, runs, results</title>
+<meta name="description" content="For QA and development teams on Jira Cloud: test cases, test runs and results kept next to the Jira issues they cover, priced for small teams.">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<script src="smoke.js" defer></script>
+<!-- faq-jsonld:start -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Who is it for?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "QA engineers and development teams that plan their work in Jira Cloud and want their tests next to their issues."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can I import existing test cases?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes, from a spreadsheet file with titles, steps and expected results."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does a failed test create a Jira bug?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes, in one click, with the steps and results filled in and linked to the test case."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it run automated tests?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. It manages test cases, runs and results that your team records."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can I use it already?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Not yet. The service is in preparation, and we are checking whether teams on Jira Cloud need it."
+   }
+  }
+ ]
+}
+</script>
+<!-- faq-jsonld:end -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
+
+<header><div class="wrap">
+  <div class="logo"><a href="index.html" data-ev="click_logo_home">Test Case Desk</a></div>
+  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Test cases, test runs and results right inside Jira Cloud — priced for small teams</h1>
+    <p class="sub">For QA engineers and development teams who already plan their work in Jira: write test cases once, run them for every release, record pass and fail results, and see which issues are covered and which are not — without leaving Jira.</p>
+    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
+    <p class="cta-note">Early access · No payment is taken on this page yet</p>
+  </div>
+
+  <section id="what" data-view="features_view">
+    <h2>What you get</h2>
+    <div class="grid">
+      <div class="card"><b>Test cases</b><span>Steps and expected results, organised in folders and linked to Jira issues.</span><br><a class="btn" href="price.html" data-ev="feature_cases">I need this</a></div>
+      <div class="card"><b>Test runs</b><span>A run per release or sprint, with each case marked passed, failed or blocked.</span><br><a class="btn" href="price.html" data-ev="feature_runs">I need this</a></div>
+      <div class="card"><b>Defects from failures</b><span>A failed step opens a Jira bug with the steps already filled in.</span><br><a class="btn" href="price.html" data-ev="feature_defects">I need this</a></div>
+      <div class="card"><b>Coverage</b><span>Which stories are tested, which failed and which have no tests yet.</span><br><a class="btn" href="price.html" data-ev="feature_coverage">I need this</a></div>
+    </div>
+  </section>
+
+  <section id="example" data-view="example_view">
+    <h2>Example (fictional data)</h2>
+    <p class="fine">A team of twelve ships a mobile app every two weeks. Their 300 test cases used to live in a spreadsheet next to Jira. Now each release has a test run in Jira: two testers mark results during the regression day, three failed steps become Jira bugs with the steps attached, and the product owner sees on the release page that two new stories still have no tests.</p>
+    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  </section>
+<!-- seo-tekst:start -->
+  <section id="opis">
+    <h2>How it works</h2>
+    <p>Many software teams plan and track their work in Jira, but keep their tests somewhere else: a spreadsheet, a shared document or a separate tool. Before each release someone copies the test list, testers mark results by hand, and the link between a failed test and the Jira issue it belongs to is lost along the way.</p>
+    <p>Test management apps for Jira solve this, and teams that use them rarely go back to spreadsheets. For a small team, though, the price of the established apps grows quickly with the number of Jira users, because the whole site is billed, not only the people who test.</p>
+    <p>The service is a test management app for Jira Cloud built for small and mid-sized teams. It keeps test cases, test runs and results inside Jira, next to the stories, tasks and bugs they cover.</p>
+    <p>A test case has a title, preconditions, steps and the expected result for each step. Cases are organised in folders, can be reused across releases and are linked to the Jira issues they check. Existing cases can be imported from a spreadsheet file.</p>
+    <p>For each release or sprint you create a test run: pick the cases, assign them to testers and set a target date. Testers go through the steps and mark each case as passed, failed or blocked, adding a comment or a screenshot where needed.</p>
+    <p>When a step fails, a Jira bug can be created from it in one click. The bug already contains the steps, the expected and the actual result, and it stays linked to the test case, so the next run shows whether the fix worked.</p>
+    <p>Every Jira issue shows its tests and their latest results. A coverage view shows which stories in a release are tested, which failed and which have no tests at all, so gaps are visible before the release, not after it.</p>
+    <p>Reports show the progress of a run, results by tester and the history of each case across releases. They can be shared with the team or exported for a release review.</p>
+    <p>The app works in Jira Cloud and uses Jira's own users and permissions. Nothing needs to be installed on your servers, and your test data stays connected to your Jira site.</p>
+    <p>Pricing follows the size of the Jira site in a few simple steps, so a team of ten or twenty people pays for a small team, and the price is known before the first test run.</p>
+    <p>The service is in preparation: we are checking whether teams on Jira Cloud need it before it is built.</p>
+    <p>The app records the tests and results your team enters. It does not run automated tests by itself, and the decision to release stays with your team.</p>
+  </section>
+  <section id="faq">
+    <h2>Questions</h2>
+    <h3>Who is it for?</h3>
+    <p>QA engineers and development teams that plan their work in Jira Cloud and want their tests next to their issues.</p>
+    <h3>Can I import existing test cases?</h3>
+    <p>Yes, from a spreadsheet file with titles, steps and expected results.</p>
+    <h3>Does a failed test create a Jira bug?</h3>
+    <p>Yes, in one click, with the steps and results filled in and linked to the test case.</p>
+    <h3>Does it run automated tests?</h3>
+    <p>No. It manages test cases, runs and results that your team records.</p>
+    <h3>Can I use it already?</h3>
+    <p>Not yet. The service is in preparation, and we are checking whether teams on Jira Cloud need it.</p>
+  </section>
+<!-- seo-tekst:end -->
+  <section id="start" data-view="start_view">
+    <h2>Set up your first test run</h2>
+    <p><label>Users on your Jira Cloud site<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>1–10</option><option>11–15</option><option>16–25</option><option>More than 25</option></select></label></p>
+    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  </section>
+</div>
+
+<footer><div class="wrap">
+  <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
+  <p class="muted">Test management for the tests and results your team records in Jira Cloud. Not an automated testing tool; release decisions stay with your team.</p>
+</div></footer>
+
+</body>
+</html>

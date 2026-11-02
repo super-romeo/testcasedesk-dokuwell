@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://testcasedesk.dokufolio.com/sitemap.xml
