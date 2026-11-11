@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For QA and development teams on Jira Cloud: test cases, test runs and results kept next to the Jira issues they cover, priced for small teams.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Test Case Desk</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Test Case Desk</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Test cases, test runs and results right inside Jira Cloud — priced for small teams</h1>
-    <p class="sub">For QA engineers and development teams who already plan their work in Jira: write test cases once, run them for every release, record pass and fail results, and see which issues are covered and which are not — without leaving Jira.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For QA engineers and development teams</p>
+      <h1 class="rise" style="--i:1" data-len="long">Test cases, test runs and results right inside Jira Cloud&nbsp;<span class="soft">— priced for small teams</span></h1>
+      <p class="rise" style="--i:2">For QA engineers and development teams who already plan their work in Jira: write test cases once, run them for every release, record pass and fail results, and see which issues are covered and which are not — without leaving Jira.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="40" fill="#0a1524" font-weight="600">Test cases</text><line x1="100" y1="196" x2="1100" y2="196" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="120" y="250" width="44" height="44" fill="#12397a" rx="8" /><text x="190" y="282" font-size="32" fill="#0a1524">runs</text><rect x="120" y="380" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="190" y="412" font-size="32" fill="#0a1524">results</text><rect x="120" y="510" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="190" y="542" font-size="32" fill="#0a1524">Jira</text><rect x="720" y="250" width="360" height="420" fill="#dfe8f7" rx="20" /><text x="750" y="318" font-size="34" fill="#0a1524" font-weight="600">Coverage</text><rect x="760" y="380" width="280" height="48" fill="#12397a" rx="24" /><rect x="760" y="460" width="280" height="48" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><rect x="760" y="540" width="280" height="48" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>QA engineers</dd></div>
+      <div><dt>Cases</dt><dd>Test cases</dd></div>
+      <div><dt>Runs</dt><dd>Run them for every</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Test cases</b><span>Steps and expected results, organised in folders and linked to Jira issues.</span><br><a class="btn" href="price.html" data-ev="feature_cases">I need this</a></div>
-      <div class="card"><b>Test runs</b><span>A run per release or sprint, with each case marked passed, failed or blocked.</span><br><a class="btn" href="price.html" data-ev="feature_runs">I need this</a></div>
-      <div class="card"><b>Defects from failures</b><span>A failed step opens a Jira bug with the steps already filled in.</span><br><a class="btn" href="price.html" data-ev="feature_defects">I need this</a></div>
-      <div class="card"><b>Coverage</b><span>Which stories are tested, which failed and which have no tests yet.</span><br><a class="btn" href="price.html" data-ev="feature_coverage">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="124" font-size="36" fill="#0a1524" font-weight="600">Test cases</text><rect x="110" y="190" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,212 128,222 144,204" fill="none" stroke="#12397a" stroke-width="4" /><rect x="180" y="200" width="300" height="22" fill="#dde2ea" rx="8" /><rect x="110" y="270" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,292 128,302 144,284" fill="none" stroke="#12397a" stroke-width="4" /><rect x="180" y="280" width="240" height="22" fill="#b9c3d2" rx="8" /><rect x="110" y="350" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="180" y="360" width="340" height="22" fill="#dde2ea" rx="8" /><rect x="110" y="430" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="180" y="440" width="200" height="22" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Test cases</h3><p>Steps and expected results, organised in folders and linked to Jira issues.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_cases">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="124" font-size="36" fill="#0a1524" font-weight="600">Test runs</text><rect x="140" y="190" width="500" height="52" fill="#ffffff" rx="26" stroke="#dde2ea" stroke-width="3" /><rect x="140" y="270" width="500" height="52" fill="#12397a" rx="26" /><rect x="140" y="350" width="500" height="52" fill="#ffffff" rx="26" stroke="#dde2ea" stroke-width="3" /><rect x="140" y="430" width="500" height="52" fill="#dfe8f7" rx="26" /></svg></div>
+        <h3>Test runs</h3><p>A run per release or sprint, with each case marked passed, failed or blocked.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_runs">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="124" font-size="36" fill="#0a1524" font-weight="600">Jira bug</text><rect x="120" y="200" width="360" height="26" fill="#dde2ea" rx="8" /><rect x="120" y="270" width="280" height="26" fill="#dde2ea" rx="8" /><rect x="120" y="340" width="400" height="26" fill="#dde2ea" rx="8" /><circle cx="560" cy="250" r="46" fill="#dfe8f7" /><polyline points="536,250 552,268 590,226" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Defects from failures</h3><p>A failed step opens a Jira bug with the steps already filled in.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_defects">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="124" font-size="36" fill="#0a1524" font-weight="600">Coverage</text><line x1="120" y1="470" x2="680" y2="470" stroke="#b9c3d2" stroke-width="4" fill="none" /><rect x="150" y="290" width="60" height="180" fill="#b9c3d2" rx="8" /><rect x="270" y="350" width="60" height="120" fill="#dde2ea" rx="8" /><rect x="390" y="250" width="60" height="220" fill="#12397a" rx="8" /><rect x="510" y="380" width="60" height="90" fill="#dfe8f7" rx="8" /></svg></div>
+        <h3>Coverage</h3><p>Which stories are tested, which failed and which have no tests yet.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_coverage">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">A team of twelve ships a mobile app every two weeks. Their 300 test cases used to live in a spreadsheet next to Jira. Now each release has a test run in Jira: two testers mark results during the regression day, three failed steps become Jira bugs with the steps attached, and the product owner sees on the release page that two new stories still have no tests.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>A team of twelve ships a mobile app every two weeks. Their 300 test cases used to live in a spreadsheet next to Jira. Now each release has a test run in Jira: two testers mark results during the regression day, three failed steps become Jira bugs with the steps attached, and the product owner sees on the release page that two new stories still have no tests.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">release</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">regression</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">failed</text><rect x="120" y="320" width="960" height="400" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="410" font-size="36" fill="#0a1524" font-weight="600">stories</text><rect x="170" y="470" width="64" height="64" fill="#12397a" rx="12" /><rect x="270" y="470" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="370" y="470" width="64" height="64" fill="#dde2ea" rx="12" /><rect x="470" y="470" width="64" height="64" fill="#b9c3d2" rx="12" /><text x="170" y="640" font-size="32" fill="#566174">no tests</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>Many software teams plan and track their work in Jira, but keep their tests somewhere else: a spreadsheet, a shared document or a separate tool. Before each release someone copies the test list, testers mark results by hand, and the link between a failed test and the Jira issue it belongs to is lost along the way.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>Many software teams plan and track their work in Jira, but keep their tests somewhere else: a spreadsheet, a shared document or a separate tool. Before each release someone copies the test list, testers mark results by hand, and the link between a failed test and the Jira issue it belongs to is lost along the way.</p>
     <p>Test management apps for Jira solve this, and teams that use them rarely go back to spreadsheets. For a small team, though, the price of the established apps grows quickly with the number of Jira users, because the whole site is billed, not only the people who test.</p>
     <p>The service is a test management app for Jira Cloud built for small and mid-sized teams. It keeps test cases, test runs and results inside Jira, next to the stories, tasks and bugs they cover.</p>
     <p>A test case has a title, preconditions, steps and the expected result for each step. Cases are organised in folders, can be reused across releases and are linked to the Jira issues they check. Existing cases can be imported from a spreadsheet file.</p>
@@ -118,31 +152,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Pricing follows the size of the Jira site in a few simple steps, so a team of ten or twenty people pays for a small team, and the price is known before the first test run.</p>
     <p>The service is in preparation: we are checking whether teams on Jira Cloud need it before it is built.</p>
     <p>The app records the tests and results your team enters. It does not run automated tests by itself, and the decision to release stays with your team.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Who is it for?</h3>
-    <p>QA engineers and development teams that plan their work in Jira Cloud and want their tests next to their issues.</p>
-    <h3>Can I import existing test cases?</h3>
-    <p>Yes, from a spreadsheet file with titles, steps and expected results.</p>
-    <h3>Does a failed test create a Jira bug?</h3>
-    <p>Yes, in one click, with the steps and results filled in and linked to the test case.</p>
-    <h3>Does it run automated tests?</h3>
-    <p>No. It manages test cases, runs and results that your team records.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether teams on Jira Cloud need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Who is it for?</h3><p>QA engineers and development teams that plan their work in Jira Cloud and want their tests next to their issues.</p></div>
+      <div class="split flip"><h3>Can I import existing test cases?</h3><p>Yes, from a spreadsheet file with titles, steps and expected results.</p></div>
+      <div class="split flip"><h3>Does a failed test create a Jira bug?</h3><p>Yes, in one click, with the steps and results filled in and linked to the test case.</p></div>
+      <div class="split flip"><h3>Does it run automated tests?</h3><p>No. It manages test cases, runs and results that your team records.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether teams on Jira Cloud need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Set up your first test run</h2>
-    <p><label>Users on your Jira Cloud site<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>1–10</option><option>11–15</option><option>16–25</option><option>More than 25</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Set up your first test run</h2>
+    </div>
+    <div class="tile stack">
+      <label>Users on your Jira Cloud site<select data-ev-focus="form_start"><option value="">— please choose —</option><option>1–10</option><option>11–15</option><option>16–25</option><option>More than 25</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Test Case Desk</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Test management for the tests and results your team records in Jira Cloud. Not an automated testing tool; release decisions stay with your team.</p>
+  <p>Test management for the tests and results your team records in Jira Cloud. Not an automated testing tool; release decisions stay with your team.</p>
 </div></footer>
 
 </body>
